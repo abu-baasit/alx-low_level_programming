@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
- * main - A program that prints various data types and sizes
- * return - once it prints 0 (successful)
+ * main - main entry
+ *
+ * return - Always 0 (success)
  */
 int main(void)
 {
