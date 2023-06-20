@@ -15,10 +15,9 @@ for (n = m + 1; n <= 8; n++)
 {
 for (o = n + 1; o <= 9; o++)
 {
-if ((n != m) != o)
-putchar(m);
-putchar(n);
-putchar(o);
+putchar((m % 10) + '0');
+putchar((n % 10) + '0');
+putchar((o % 10) + '0');
 if (m == 7 && n == 8 && o == 9)
 continue;
 putchar(',');
