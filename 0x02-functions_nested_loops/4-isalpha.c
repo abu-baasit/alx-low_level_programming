@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 /**
 * main - Entry point
 * description: A program that print lower case witn exception
