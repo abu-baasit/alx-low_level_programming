@@ -8,7 +8,8 @@
 * @owner:third member
 * description: A dogs profile
 */
-struct dog {
+struct dog
+{
 char *name;
 float age;
 char *owner;
@@ -16,7 +17,6 @@ char *owner;
 
 /**
 * dog_t  -typedef for struct dog
-
 */
 typedef struct dog dog_t;
 
