@@ -6,9 +6,9 @@
 void free_listint2(listint_t **head)
 {
 	listint_t *create;
-if (head == NULL)
-	return;
 
+	if (head == NULL)
+	return;
 	while (*head)
 {
 	create = (*head)->next;
